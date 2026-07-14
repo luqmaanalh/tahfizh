@@ -1,0 +1,164 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"mH8T3FCxXC\",\"type\":\"header\",\"data\":{\"text\":\"<span style=\\\"font-size: 18px; letter-spacing: 0.18px;\\\"><b>Shortcut</b></span>\",\"col\":12}},{\"id\":\"yggFL3F9Ku\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Create New Log\",\"col\":3}},{\"id\":\"KB08hGblRD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"View Log\",\"col\":3}},{\"id\":\"gcXOeR09og\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"4C4wWLE8LN\",\"type\":\"card\",\"data\":{\"card_name\":\"Core\",\"col\":4}},{\"id\":\"2CiE2JFE9t\",\"type\":\"card\",\"data\":{\"card_name\":\"Log\",\"col\":4}},{\"id\":\"eHzeFVgTNG\",\"type\":\"card\",\"data\":{\"card_name\":\"Assessment\",\"col\":4}}]",
+ "creation": "2026-07-03 23:40:01.943291",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "education",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Tahfizh",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Core",
+   "link_count": 4,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Muhafidz",
+   "link_count": 0,
+   "link_to": "Muhafizh",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Student",
+   "link_count": 0,
+   "link_to": "Tahfizh Student",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Group",
+   "link_count": 0,
+   "link_to": "Halaqah Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessor",
+   "link_count": 0,
+   "link_to": "Assessor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Log",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tahfizh Log",
+   "link_count": 0,
+   "link_to": "Tahfizh Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Murajaah Log",
+   "link_count": 0,
+   "link_to": "Murajaah Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Log",
+   "link_count": 0,
+   "link_to": "Assessment Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Assessment Booking",
+   "link_count": 0,
+   "link_to": "Assessment Booking",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-07-14 01:44:21.872175",
+ "modified_by": "Administrator",
+ "module": "Tahfizh",
+ "name": "Tahfizh",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Muhafizh"
+  },
+  {
+   "role": "Assessor"
+  }
+ ],
+ "sequence_id": 28.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Create New Log",
+   "link_to": "Tahfizh Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "Report Builder",
+   "label": "View Log",
+   "link_to": "Tahfizh Log",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Tahfizh"
+}

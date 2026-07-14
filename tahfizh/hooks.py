@@ -14,9 +14,9 @@ app_license = "mit"
 # add_to_apps_screen = [
 # 	{
 # 		"name": "tahfizh",
-# 		"logo": "/assets/tahfizh/logo.png",
+# 		"logo": "/assets/tahfizh/tahfizh-logo.png",
 # 		"title": "Tahfizh",
-# 		"route": "/tahfizh",
+# 		"route": "/app/tahfizh",
 # 		"has_permission": "tahfizh.api.permission.has_app_permission"
 # 	}
 # ]

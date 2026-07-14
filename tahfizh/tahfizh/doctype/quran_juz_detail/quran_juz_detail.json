@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-07-04 20:26:59.722716",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "surah_name",
+  "start_ayat",
+  "end_ayat"
+ ],
+ "fields": [
+  {
+   "fieldname": "surah_name",
+   "fieldtype": "Link",
+   "label": "Surah Name",
+   "options": "Quran Surah Master"
+  },
+  {
+   "fieldname": "start_ayat",
+   "fieldtype": "Int",
+   "label": "Start Ayat"
+  },
+  {
+   "fieldname": "end_ayat",
+   "fieldtype": "Int",
+   "label": "End Ayat"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-07-04 20:52:02.544731",
+ "modified_by": "Administrator",
+ "module": "Tahfizh",
+ "name": "Quran Juz Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "autoname": "autoincrement",
+ "creation": "2026-07-07 09:06:27.956748",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "juz_number",
+  "start_section",
+  "surah_start",
+  "column_break_ksxu",
+  "ayat_start",
+  "section_break_ovwf",
+  "surah_end",
+  "column_break_hujd",
+  "ayat_end"
+ ],
+ "fields": [
+  {
+   "fieldname": "juz_number",
+   "fieldtype": "Int",
+   "label": "Juz Number"
+  },
+  {
+   "fieldname": "start_section",
+   "fieldtype": "Section Break",
+   "label": "Start"
+  },
+  {
+   "fieldname": "surah_start",
+   "fieldtype": "Link",
+   "label": "Surah Start",
+   "options": "Quran Surah Master"
+  },
+  {
+   "fieldname": "column_break_ksxu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ayat_start",
+   "fieldtype": "Int",
+   "label": "Ayat Start"
+  },
+  {
+   "fieldname": "section_break_ovwf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "surah_end",
+   "fieldtype": "Link",
+   "label": "Surah End",
+   "options": "Quran Surah Master"
+  },
+  {
+   "fieldname": "column_break_hujd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ayat_end",
+   "fieldtype": "Int",
+   "label": "Ayat End"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-07 09:11:06.986206",
+ "modified_by": "Administrator",
+ "module": "Tahfizh",
+ "name": "Quran Juz Master Data 2",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

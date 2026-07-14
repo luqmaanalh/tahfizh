@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-07-04 06:39:45.259173",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "muhafizh_id",
+  "column_break_jzls",
+  "muhafizh_name",
+  "section_break_ajih",
+  "table_tahfizh_student"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "Halaqah-.##"
+  },
+  {
+   "fieldname": "section_break_ajih",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "muhafizh_id",
+   "fieldtype": "Link",
+   "label": "Muhafizh ID",
+   "options": "Muhafizh"
+  },
+  {
+   "fetch_from": "muhafizh_id.muhafizh_name",
+   "fieldname": "muhafizh_name",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "column_break_jzls",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "table_tahfizh_student",
+   "fieldtype": "Table",
+   "label": "Students",
+   "options": "Halaqah Student"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-04 19:42:00.098275",
+ "modified_by": "Administrator",
+ "module": "Tahfizh",
+ "name": "Halaqah Group",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

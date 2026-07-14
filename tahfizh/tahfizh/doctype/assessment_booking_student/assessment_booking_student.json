@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-07-07 13:45:29.870767",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "muhafizh_name",
+  "halaqah_id",
+  "student",
+  "juz",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Student",
+   "options": "Tahfizh Student",
+   "set_only_once": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "muhafizh_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Muhafizh Name",
+   "options": "Muhafizh",
+   "read_only": 1,
+   "set_only_once": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "juz",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Juz",
+   "set_only_once": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "halaqah_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Halaqah ID",
+   "options": "Halaqah Group",
+   "set_only_once": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Pending\nApproved\nCanceled",
+   "permlevel": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-07-14 08:54:00.268336",
+ "modified_by": "Administrator",
+ "module": "Tahfizh",
+ "name": "Assessment Booking Student",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,424 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-07-05 05:41:17.585263",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "column_break_huuo",
+  "assessor_id",
+  "section_break_nmim",
+  "column_break_chen",
+  "assessor_name",
+  "column_break_wxhe",
+  "date",
+  "section_break_mirr",
+  "student",
+  "column_break_gmkd",
+  "muhafizh_name",
+  "section_break_yauv",
+  "column_break_bufn",
+  "juz",
+  "start_section",
+  "surah_start",
+  "column_break_psnt",
+  "ayat_start",
+  "end_section",
+  "surah_end",
+  "column_break_xucn",
+  "ayat_end",
+  "question_1_section",
+  "continuity_1",
+  "column_break_iyog",
+  "tajwid_1",
+  "column_break_frpp",
+  "makhraj_1",
+  "question_2_section",
+  "continuity_2",
+  "column_break_iimo",
+  "tajwid_2",
+  "column_break_muvb",
+  "makhraj_2",
+  "question_3_section",
+  "continuity_3",
+  "column_break_jdmu",
+  "tajwid_3",
+  "column_break_eqgk",
+  "makhraj_3",
+  "section_break_xstq",
+  "continuity_4",
+  "column_break_tchb",
+  "tajwid_4",
+  "column_break_ovco",
+  "makhraj_4",
+  "question_5_section",
+  "continuity_5",
+  "column_break_oefo",
+  "tajwid_5",
+  "column_break_abtw",
+  "makhraj_5",
+  "grading_section",
+  "continuity",
+  "column_break_skhu",
+  "tajwid",
+  "column_break_iumr",
+  "makhraj",
+  "column_break_lxtu",
+  "score"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "ASM-.######",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_nmim",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "assessor_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Assessor ID",
+   "options": "Assessor",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_wxhe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_mirr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "Student",
+   "options": "Tahfizh Student",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_gmkd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "muhafizh_name",
+   "fieldtype": "Data",
+   "label": "Muhafizh Name",
+   "options": "Muhafizh",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_yauv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_bufn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "juz",
+   "fieldtype": "Int",
+   "label": "Juz",
+   "reqd": 1
+  },
+  {
+   "fieldname": "start_section",
+   "fieldtype": "Section Break",
+   "label": "Start"
+  },
+  {
+   "fieldname": "surah_start",
+   "fieldtype": "Data",
+   "label": "Surah Start",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_psnt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ayat_start",
+   "fieldtype": "Int",
+   "label": "Ayat Start",
+   "read_only": 1
+  },
+  {
+   "fieldname": "end_section",
+   "fieldtype": "Section Break",
+   "label": "End"
+  },
+  {
+   "fieldname": "surah_end",
+   "fieldtype": "Data",
+   "label": "Surah End",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_xucn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ayat_end",
+   "fieldtype": "Int",
+   "label": "Ayat End",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_chen",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assessor_name",
+   "fieldtype": "Data",
+   "label": "Assessor Name"
+  },
+  {
+   "fieldname": "column_break_huuo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "question_1_section",
+   "fieldtype": "Section Break",
+   "label": "Question 1"
+  },
+  {
+   "fieldname": "column_break_iyog",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_frpp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "question_2_section",
+   "fieldtype": "Section Break",
+   "label": "Question 2"
+  },
+  {
+   "fieldname": "continuity_2",
+   "fieldtype": "Select",
+   "label": "Continuity (2)",
+   "options": "\n100\n95\n90\n85\n80\n75\n70",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tajwid_2",
+   "fieldtype": "Select",
+   "label": "Tajwid (2)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "makhraj_2",
+   "fieldtype": "Select",
+   "label": "Makhraj (2)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "column_break_iimo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_muvb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "question_3_section",
+   "fieldtype": "Section Break",
+   "label": "Question 3"
+  },
+  {
+   "fieldname": "continuity_3",
+   "fieldtype": "Select",
+   "label": "Continuity (3)",
+   "options": "\n100\n95\n90\n85\n80\n75\n70",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_jdmu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tajwid_3",
+   "fieldtype": "Select",
+   "label": "Tajwid (3)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "column_break_eqgk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "makhraj_3",
+   "fieldtype": "Select",
+   "label": "Makhraj (3)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "section_break_xstq",
+   "fieldtype": "Section Break",
+   "label": "Question 4"
+  },
+  {
+   "fieldname": "continuity_4",
+   "fieldtype": "Select",
+   "label": "Continuity (4)",
+   "options": "\n100\n95\n90\n85\n80\n75\n70",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tajwid_4",
+   "fieldtype": "Select",
+   "label": "Tajwid (4)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "makhraj_4",
+   "fieldtype": "Select",
+   "label": "Makhraj (4)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "column_break_tchb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ovco",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "question_5_section",
+   "fieldtype": "Section Break",
+   "label": "Question 5"
+  },
+  {
+   "fieldname": "continuity_5",
+   "fieldtype": "Select",
+   "label": "Continuity (5)",
+   "options": "\n100\n95\n90\n85\n80\n75\n70",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_oefo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tajwid_5",
+   "fieldtype": "Select",
+   "label": "Tajwid (5)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "column_break_abtw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "makhraj_5",
+   "fieldtype": "Select",
+   "label": "Makhraj (5)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "continuity_1",
+   "fieldtype": "Select",
+   "label": "Continuity (1)",
+   "options": "\n100\n95\n90\n85\n80\n75\n70",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tajwid_1",
+   "fieldtype": "Select",
+   "label": "Tajwid (1)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "makhraj_1",
+   "fieldtype": "Select",
+   "label": "Makhraj (1)",
+   "options": "\n95\n90\n85\n80\n75\n70"
+  },
+  {
+   "fieldname": "grading_section",
+   "fieldtype": "Section Break",
+   "label": "Grading"
+  },
+  {
+   "fieldname": "continuity",
+   "fieldtype": "Float",
+   "label": "Continuity",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_skhu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tajwid",
+   "fieldtype": "Float",
+   "label": "Tajwid",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_iumr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "makhraj",
+   "fieldtype": "Float",
+   "label": "Makhraj",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_lxtu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "score",
+   "fieldtype": "Int",
+   "label": "Score",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-14 13:02:24.346929",
+ "modified_by": "Administrator",
+ "module": "Tahfizh",
+ "name": "Assessment Log",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

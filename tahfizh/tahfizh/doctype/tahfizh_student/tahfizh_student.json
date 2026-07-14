@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "field:student_id",
+ "creation": "2026-07-04 07:17:19.306836",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enabled",
+  "section_break_nrgl",
+  "student_id",
+  "student_name",
+  "column_break_wlkr",
+  "gender",
+  "score",
+  "section_break_dioz",
+  "halaqah_group",
+  "tahfizh_log_tab",
+  "tahfizh_log_preview",
+  "tahfizh_murajaah_log",
+  "murajaah_log_preview_html",
+  "assessment_log_tab",
+  "assessment_log_preview_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "student_id",
+   "fieldtype": "Link",
+   "label": "Student ID",
+   "options": "Student",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_wlkr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "student_id.first_name",
+   "fieldname": "student_name",
+   "fieldtype": "Data",
+   "label": "Student Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "tahfizh_log_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tahfizh Log"
+  },
+  {
+   "default": "0",
+   "fetch_from": "student_id.enabled",
+   "fieldname": "enabled",
+   "fieldtype": "Check",
+   "label": "Enabled"
+  },
+  {
+   "fieldname": "section_break_nrgl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_dioz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "halaqah_group",
+   "fieldtype": "Table",
+   "label": "Halaqah Name",
+   "options": "Student Halaqah Link",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tahfizh_log_preview",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "tahfizh_murajaah_log",
+   "fieldtype": "Tab Break",
+   "label": "Murajaah Log"
+  },
+  {
+   "fieldname": "murajaah_log_preview_html",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "assessment_log_tab",
+   "fieldtype": "Tab Break",
+   "label": "Assessment Log"
+  },
+  {
+   "fieldname": "assessment_log_preview_html",
+   "fieldtype": "HTML"
+  },
+  {
+   "fieldname": "score",
+   "fieldtype": "Int",
+   "label": "Score",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-07-14 15:52:04.176671",
+ "modified_by": "Administrator",
+ "module": "Tahfizh",
+ "name": "Tahfizh Student",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "search_fields": "student_name",
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "student_name"
+}
