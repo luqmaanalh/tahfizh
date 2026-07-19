@@ -66,8 +66,6 @@
   "tajwid",
   "column_break_akqp",
   "makhraj",
-  "column_break_kmvs",
-  "score",
   "preview_tab",
   "preview_section",
   "murajaah_log_preview"
@@ -402,22 +400,12 @@
    "fieldtype": "Int",
    "label": "Makhraj",
    "read_only": 1
-  },
-  {
-   "fieldname": "column_break_kmvs",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "score",
-   "fieldtype": "Int",
-   "label": "Score",
-   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-13 17:31:32.097054",
+ "modified": "2026-07-19 12:58:05.609372",
  "modified_by": "Administrator",
  "module": "Tahfizh",
  "name": "Murajaah Log",

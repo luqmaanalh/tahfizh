@@ -258,6 +258,7 @@
    "fieldname": "total_line",
    "fieldtype": "Int",
    "label": "Total Line",
+   "read_only": 1,
    "reqd": 1
   },
   {
@@ -294,7 +295,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-14 16:34:21.489048",
+ "modified": "2026-07-19 12:50:34.324244",
  "modified_by": "Administrator",
  "module": "Tahfizh",
  "name": "Tahfizh Log",

@@ -13,7 +13,6 @@
   "student_name",
   "column_break_wlkr",
   "gender",
-  "score",
   "section_break_dioz",
   "halaqah_group",
   "tahfizh_log_tab",
@@ -95,18 +94,12 @@
   {
    "fieldname": "assessment_log_preview_html",
    "fieldtype": "HTML"
-  },
-  {
-   "fieldname": "score",
-   "fieldtype": "Int",
-   "label": "Score",
-   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-14 15:52:04.176671",
+ "modified": "2026-07-19 12:59:53.894596",
  "modified_by": "Administrator",
  "module": "Tahfizh",
  "name": "Tahfizh Student",

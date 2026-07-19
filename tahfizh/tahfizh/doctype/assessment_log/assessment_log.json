@@ -64,9 +64,7 @@
   "column_break_skhu",
   "tajwid",
   "column_break_iumr",
-  "makhraj",
-  "column_break_lxtu",
-  "score"
+  "makhraj"
  ],
  "fields": [
   {
@@ -381,22 +379,12 @@
    "fieldtype": "Float",
    "label": "Makhraj",
    "read_only": 1
-  },
-  {
-   "fieldname": "column_break_lxtu",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "score",
-   "fieldtype": "Int",
-   "label": "Score",
-   "read_only": 1
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-14 13:02:24.346929",
+ "modified": "2026-07-19 12:58:25.623932",
  "modified_by": "Administrator",
  "module": "Tahfizh",
  "name": "Assessment Log",
