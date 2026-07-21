@@ -117,7 +117,8 @@
    "fieldname": "halaqah_id",
    "fieldtype": "Link",
    "label": "Halaqah ID",
-   "options": "Halaqah Group"
+   "options": "Halaqah Group",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_gumk",
@@ -127,7 +128,8 @@
    "fieldname": "student",
    "fieldtype": "Link",
    "label": "Student",
-   "options": "Tahfizh Student"
+   "options": "Tahfizh Student",
+   "reqd": 1
   },
   {
    "fieldname": "section_break_nwuk",
@@ -136,7 +138,8 @@
   {
    "fieldname": "juz",
    "fieldtype": "Int",
-   "label": "Juz"
+   "label": "Juz",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_nkhu",
@@ -146,7 +149,8 @@
    "fieldname": "portion",
    "fieldtype": "Select",
    "label": "Portion",
-   "options": "\nRubu' (1/4)\nNisf (1/2)\nJuz (1)"
+   "options": "\nRubu' (1/4)\nNisf (1/2)\nJuz (1)",
+   "reqd": 1
   },
   {
    "fieldname": "column_break_jndo",
@@ -156,7 +160,8 @@
    "fieldname": "part",
    "fieldtype": "Select",
    "label": "Part",
-   "options": "\nH1\nH2\nQ1\nQ2\nQ3\nQ4\nFull"
+   "options": "\nH1\nH2\nQ1\nQ2\nQ3\nQ4\nFull",
+   "reqd": 1
   },
   {
    "fieldname": "start_section",
@@ -224,7 +229,7 @@
    "fieldname": "continuity_1",
    "fieldtype": "Select",
    "label": "Continuity (1)",
-   "options": "\n100\n80"
+   "options": "\n100\n90\n80"
   },
   {
    "fieldname": "column_break_sjve",
@@ -255,7 +260,7 @@
    "fieldname": "continuity_2",
    "fieldtype": "Select",
    "label": "Continuity (2)",
-   "options": "\n100\n80"
+   "options": "\n100\n90\n80"
   },
   {
    "fieldname": "column_break_dtkf",
@@ -286,7 +291,7 @@
    "fieldname": "continuity_3",
    "fieldtype": "Select",
    "label": "Continuity (3)",
-   "options": "\n100\n80"
+   "options": "\n100\n90\n80"
   },
   {
    "fieldname": "column_break_vlpy",
@@ -317,7 +322,7 @@
    "fieldname": "continuity_4",
    "fieldtype": "Select",
    "label": "Continuity (4)",
-   "options": "\n100\n80"
+   "options": "\n100\n90\n80"
   },
   {
    "fieldname": "column_break_mepg",
@@ -348,7 +353,7 @@
    "fieldname": "continuity_5",
    "fieldtype": "Select",
    "label": "Continuity (5)",
-   "options": "\n100\n80"
+   "options": "\n100\n90\n80"
   },
   {
    "fieldname": "column_break_jmcy",
@@ -405,7 +410,7 @@
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-07-19 12:58:05.609372",
+ "modified": "2026-07-21 14:38:56.746178",
  "modified_by": "Administrator",
  "module": "Tahfizh",
  "name": "Murajaah Log",
